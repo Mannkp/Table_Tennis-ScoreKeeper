@@ -1,4 +1,4 @@
-# ping-pong-ScoreKeeper
+# Table_Tennis-ScoreKeeper
 Score keeper/Counter using Javascript
 
 concepts of javascript used:
