@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <img src="./conor-samuel-vPKGcFEbmjc-unsplash.jpg" alt="" id="racket">
+        <h2>Ping-Pong Score Keeper</h2>
+        <h1 id="score"><span id="p1Span">0</span> to <span id="p2Span">0</span></h1>
+        <h4>Use the button below to keep score.</h4>
+        <h3>Playing to: <select name="playto" id="select">
+            <option value="5" >5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+        </select>
+    </h3>
+    <div class="btns">
+        <button id="p1">+1 Player 1</button>
+        <button id="p2">+1 Player 2</button>
+        <button id="reset">Reset</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
