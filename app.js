@@ -59,6 +59,7 @@ function reset(){
         p.button.disabled = false;
         isDisabled = false;
         p.button.classList.remove("grey");
+        winningScore = parseInt(selectWinningScore.value);
     }
 }
 
