@@ -27,6 +27,9 @@ resetBtn.addEventListener('click', reset);
 
 function updateScores(player, opponent){
     if(!isGameOver){
+        if(player.score === (winningScore-1) && opponent.score === (winningScore-1)){
+            winningScore += 1;
+        }
         player.score += 1;
         if(player.score === winningScore){
             isGameOver = true;
