@@ -5,27 +5,37 @@
     margin:3vh auto;
     box-sizing: border-box;
     padding: 0;
-    /* height: 80vh; */
     height: fit-content;
-    width: 43vw;
+    width: 45vw;
     border: 1px solid rgba(204, 204, 204,0.5);
-    /* display: flex;
-    flex-direction: column;
-    justify-content:start; */
-    /* align-content:flex-start; */
 }
 h2{
     margin: 0px;
-    padding: 10px;
+    padding: 10px;   
     font-size: 2rem;
     border: 1px solid rgba(204, 204, 204,0.5);
 }
-#racket{
+.img{
     box-sizing: border-box;
-    /* object-fit: contain; */
+    /* border: 2px solid red; */
+    height:42vh;
+    width: 100%;
+    /* background-color: rgba(204, 204, 204,0.3); */
+    /* background-color: rgba(244, 150, 43 , 0.15); */
+    /* box-shadow: inset 1em 1em gold , inset -1em -1em orange; */
+    /* box-shadow: inset 1em 1em 50px gold , inset -1em -1em 50px red; */
+    /* box-shadow: inset 1em 1em 50px white , inset -1em -1em 50px white; */
+}
+#racket{
+    position: relative;
+    object-fit: cover;
     object-position: top;
-    height: 40vh;
-    width: 43vw;
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    z-index: -5;
+    /* filter: blur(1px); */
+    /* box-shadow:inset 10px 10px 50px black; */
 }
 select{
     width: 4vw;
@@ -85,11 +95,12 @@ h1{
         height: fit-content;
         width: 90vw;
     }
+    .img{
+        height: fit-content;
+        box-shadow: none;
+    }
     #racket{
-        height: 30vh;
-        width: 80vw;
-        margin: 10px auto;
-        object-fit: contain;
+        z-index: 22;
     }
     select{
         width:12vw;
